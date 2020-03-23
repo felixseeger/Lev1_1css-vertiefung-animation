@@ -9,7 +9,6 @@ html, body{
 section{
     height: 100vh;
     text-align: center;
-    
     padding-top: 20%;
 }
 
@@ -27,21 +26,18 @@ section img{
     animation: scroll .8s linear .2s alternate infinite both  ;
 }
 
-section img:nth-child(3) {
-    transform: rotate(180deg);
 
-}
 
  #one {
-    background: red;
+    background: #fbff76;
     }
 
  #two {
-    background: green;
+    background: #e96674;
     }
 
 #three {
-    background: cyan;
+    background: #80ffba;
     }
 #three img {
 
