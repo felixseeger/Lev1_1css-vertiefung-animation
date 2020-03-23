@@ -1,0 +1,66 @@
+html, body{
+
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+
+}
+
+section{
+    height: 100vh;
+    text-align: center;
+    
+    padding-top: 20%;
+}
+
+h1{
+    font-family: "fira sans", sans serif;
+}
+
+a{
+color: black;
+}
+
+section img{
+    position:relative;
+    float:center;
+    animation: scroll .8s linear .2s alternate infinite both  ;
+}
+
+section img:nth-child(3) {
+    transform: rotate(180deg);
+
+}
+
+ #one {
+    background: red;
+    }
+
+ #two {
+    background: green;
+    }
+
+#three {
+    background: cyan;
+    }
+#three img {
+
+    transform: rotate(180deg);
+}
+
+@keyframes scroll {
+0%{
+
+padding-top:20px;
+}
+
+50% {
+
+}
+
+100% {
+
+padding-top: 0px;
+}
+}
+
