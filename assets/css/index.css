@@ -23,7 +23,7 @@ color: black;
 section img{
     position:relative;
     float:center;
-    animation: scroll .8s linear .2s alternate infinite both  ;
+    animation: arrow .8s linear .2s alternate infinite both  ;
 }
 
 
@@ -44,9 +44,9 @@ section img{
     transform: rotate(180deg);
 }
 
-@keyframes scroll {
+@keyframes arrow {
 0%{
-
+opacity: 0;
 padding-top:20px;
 }
 
@@ -55,7 +55,7 @@ padding-top:20px;
 }
 
 100% {
-
+opacity: 1;
 padding-top: 0px;
 }
 }
